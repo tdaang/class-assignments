@@ -1,0 +1,534 @@
+    1  sudo apt-get update
+    2  sudo reboot
+    3  sudo ./install_things.sh
+    4  cd /etc/apt/
+    5  ls
+    6  cd preferences.d/
+    7  ls
+    8  cd ../
+    9  ls
+   10  sudo sources.list
+   11  sudo gedit sources.list
+   12  ls
+   13  cd preferences.d/
+   14  ls
+   15  touch 01_release
+   16  sudo touch 01_release
+   17  sudo gedit 01_release 
+   18  sudo apt-get update
+   19  sudo apt-get install libgstreamer0.10-0 libgstreamer-plugins-base0.10-0.
+   20  ls
+   21  cd 
+   22  ls
+   23  cd Downloads/
+   24  ls
+   25  sudo gdebi rstudio-1.0.136-amd64.deb 
+   26  cd
+   27  apt-get install rstudio
+   28  sudo apt-get install rstudio
+   29  sudo apt-get -f install
+   30  ls
+   31  cd Downloads/
+   32  ls
+   33  sudo gdebi rstudio-1.0.136-amd64.deb 
+   34  sudo apt-get install rstudio
+   35  sudo rstudio 
+   36  cd
+   37  clear
+   38  =ls
+   39  clear
+   40  ls
+   41  cd Downloads/
+   42  ls
+   43  bash Miniconda3-latest-Linux-x86_64.sh 
+   44  df -h
+   45  cd
+   46  ls
+   47  conda update conda
+   48  exit
+   49  ls
+   50  conda update conda
+   51  ls
+   52  df -h
+   53  conda install numpy
+   54  df -h
+   55  conda install jupyter
+   56  ls
+   57  jupyter 
+   58  df -h
+   59  conda install numpy
+   60  conda install scipy
+   61  df -h
+   62  jupyter notebook
+   63  ls
+   64  clear
+   65  ls
+   66  cd Desktop/
+   67  ls
+   68  exit
+   69  Ls
+   70  ls
+   71  pwd
+   72  cd desktop/
+   73  cd Desktop/
+   74  pwd
+   75  nkdir eeb-177
+   76  ls
+   77  rstudio.desktop
+   78  pwd
+   79  git config --global user.name "Tiffany Dang"
+   80  git config --global user.email "tiffanydang95@gmail.com"
+   81  cd
+   82  mkdir
+   83  cd Desktop
+   84  mkdir eeb-177
+   85  cd eeb-177
+   86  mkdir lab-work
+   87  cd lab-work
+   88  pwd
+   89  git init
+   90  touch README.txt
+   91  gedit README.txt
+   92  git add README.txt
+   93  commit -m "initial commit: adding README file"
+   94  git commit -m "initial commit: adding README file"
+   95  git log
+   96  git remote add origin https://github.com/tdaang/labwork.git
+   97  git push -u origin master
+   98  git config --global credential.helper cache
+   99  git config --global credential.helper 'cache --timeout=3600'
+  100  cd Desktop
+  101  cd eeb-177
+  102  cd lab-work
+  103  mkdir exercise-1
+  104  git add <exercise-1>
+  105  git add exercise-1
+  106  cd exercise-1
+  107  touch README.txt
+  108  sudo gedit README.txt
+  109  cd ..
+  110  git add exercise-1/README.txt
+  111  git status
+  112  git commit -week 1 section 1 exercise 1 text file
+  113  git status
+  114  git push
+  115  cd exercise-1
+  116  mkdir one-liner.txt
+  117  git log
+  118  cd ../
+  119  git log
+  120  git add exercise-1/
+  121  git commit -m "add ex1"
+  122  git push
+  123  pwd
+  124  cd Desktop
+  125  ls
+  126  cd eeb-177/
+  127  ls
+  128  cd CSB
+  129  cd Desktop
+  130  cd eeb-177
+  131  mkdir class-assignments
+  132  git init
+  133  ls
+  134  ls -a
+  135  rm-rf -git
+  136  rm -rf -git
+  137  rm -rf .git
+  138  ls -a
+  139  cd class-assignments
+  140  git init
+  141  git remote add origin https://github.com/tdaang/class-assignments.git
+  142  git push -u origin master
+  143  git remote add origin https://github.com/tdaang/class-assignments.git
+  144  git push -u origin master
+  145  git status
+  146  touch readme.txt
+  147  ls
+  148  cd ../
+  149  ls
+  150  rm -rf class-assignments
+  151  mkdir class assignments
+  152  cd class=assignments
+  153  ls
+  154  cd class-assignments
+  155  cd class assignments
+  156  git init
+  157  git add
+  158  ls
+  159  touch readme.txt
+  160  cd ../
+  161  rm -rf class
+  162  ls
+  163  rm -rf assignments
+  164  ls
+  165  mkdir class-assignments
+  166  cd class-assignments
+  167  git config --global user.name "Tiffany Dang"
+  168  touch readme.txt
+  169  git add readme.txt
+  170  ls
+  171  rm readme.txt
+  172  ls
+  173  touch readme.txt
+  174  ls
+  175  git add readme.txt
+  176  ls -a
+  177  git init
+  178  git add readme.txt
+  179  git commit -m "added readme file"
+  180  git remote add origin https://github.com/tdaang/class-assignments.git
+  181  -u origin master
+  182  git push -u origin master
+  183  ls
+  184  mkdir thurs-1-12-2017
+  185  git status
+  186  ls
+  187  echo $SHELL
+  188  echo $HOME
+  189  cd /
+  190  ls
+  191  pwd
+  192  ls
+  193  cd bin
+  194  ls
+  195  ls -l
+  196  echo $HOME
+  197  cd /home/eeb177-student
+  198  pwd
+  199  cd ~
+  200  pwd
+  201  cd lab-work
+  202  cd eeb-177
+  203  cd Desktop
+  204  cd eeb-177
+  205  cd lab-work
+  206  cd exercise-1
+  207  touch one-liner.txt
+  208  gedit one-liner.txt
+  209  cd one-liner.txt
+  210  touch README.txt
+  211  gedit README.txt
+  212  ../
+  213  ~..
+  214  ~../
+  215  ..
+  216  root
+  217  ~
+  218  echo $HOME
+  219  pwd
+  220  cd Desktop
+  221  cd eeb-177
+  222  cd lab-work
+  223  cd exercise-1
+  224  cd one-liner.txt
+  225  git init
+  226  git add README.txt
+  227  git commit -m "adding one-liner.txt with README.txt file"
+  228  git push
+  229  git remote add <one-liner.txt> <https://github.com/tdaang/labwork.git>
+  230  git init
+  231  git add README.txt
+  232  git commit -m "exercise 1 one-liner.txt with README.txt inside"
+  233  git remote add github https://github.com/tdaang/labwork.git
+  234  cd README.txt
+  235  git config --global credential.helper cache
+  236  git config --global credential.helper 'cache --timeout=3600'
+  237  ../
+  238  cd ../
+  239  git push
+  240  cd exercise-1
+  241  cd one-liner.txt
+  242  cd README.txt
+  243  git init
+  244  git add
+  245  git add README.txt
+  246  git commit -m "adding one-liner.txt with readme file"
+  247  cd ../
+  248  git push
+  249  git remote add <https://github.com/tdaang/labwork.git>
+  250  git remote add github <https://github.com/tdaang/labwork.git>
+  251  git push
+  252  git log
+  253  cd exercise-1
+  254  touch one-liner.txt
+  255  gedit one-liner.txt
+  256  cd one-liner.txt
+  257  git init
+  258  git add README.txt
+  259  git commit-m "adding one liner readme"
+  260  git commit -m "adding one liner readme"
+  261  cd ../
+  262  git init
+  263  git add exercise-1/one-liner.txt
+  264  git commit -m "adding one liner txt readme file"
+  265  git push
+  266  cd exercise-1
+  267  cd one-liner.txt
+  268  gedit README.txt
+  269  cd../
+  270  cd ../
+  271  git add exercise-1/one-liner.txt
+  272  git commit -m "adding second text to one liner readme"
+  273  git log
+  274  git init
+  275  git add exercise-1/one-liner.txt
+  276  git commit -m "adding second readme revision"
+  277  cd exercise-1
+  278  cd one-liner.txt
+  279  sudo rm -rf .git
+  280  cd ../
+  281  git add exercise-1/one-liner.txt
+  282  git commit -m "adding second revision"
+  283  git push
+  284  git init
+  285  git add exercise-1/one-liner.txt/README.txt
+  286  git add exercise-1/one-liner.txt 
+  287  git commit -m "adding second revision"
+  288  cd exercise-1
+  289  cd one-liner.txt
+  290  gedit README.txt
+  291  cd ../
+  292  git add exercise-1/one-liner.txt/README.txt
+  293  git add exercise-1/one-liner.txt
+  294  git commit -m "sos trying to make second revision on one-liner file"
+  295  git push
+  296  cd exercise-1
+  297  git init
+  298  cd ../
+  299  cd path_to_submodule
+  300  cd ../
+  301  ls -al
+  302  cat .git/config
+  303  find . -name ".git*"
+  304  git status
+  305  git add editors
+  306  git add shells
+  307  git status
+  308  cd eeb-177
+  309  cd lab-work
+  310  git add exercise-1/one-liner.txt/one-liner-readme.txt
+  311  git init
+  312  git add exercise-1/one-liner.txt
+  313  git commit -m "attempt 13414 adding this revision"
+  314  git status
+  315  git init
+  316  cd exercise-1
+  317  touch ONE-LINER.txt
+  318  gedit ONE-LINER.txt
+  319  cd ../
+  320  git add exercise-1/ONE-LINER.txt
+  321  git commit -m "attempt 2 at one liner"
+  322  git push
+  323  cd exercise-1
+  324  gedit ONE-LINER.txt
+  325  cd ../
+  326  git add exercise-1/ONE-LINER.txt
+  327  git commit -m "edit 1 of one liner txt"
+  328  git push
+  329  cd exercise-1
+  330  gedit ONE-LINER.txt
+  331  ../
+  332  git add exercise-1/ONE-LINER.txt
+  333  cd ../
+  334  git add exercise-1/ONE-LINER.txt
+  335  git commit -m "edit 2 of one liner text
+  336  sdlkfjaw
+  337  "
+  338  git push
+  339  git log
+  340  git init
+  341  git add exercise-1/repo-history.png
+  342  git commit -m "repository history"
+  343  git push
+  344  git branch
+  345  git checkout -b dummy-branch
+  346  git branch
+  347  cd exercise-1
+  348  touch dummy-file
+  349  cd ../
+  350  git init
+  351  git add exercise-1/dummy-file
+  352  git commit -m "adding dummy file"
+  353  git push
+  354  git status
+  355  git init
+  356  git add exercise-1/dummy-file
+  357  git commit -m "adding dummy file"
+  358  git push --set-upstream origin dummy-branch
+  359  git log --decorate
+  360  cd exercise-1
+  361  ls
+  362  git checkout master
+  363  cd ../
+  364  git checkout master
+  365  cd lab-work
+  366  git checkout master
+  367  cd exercise-1
+  368  ls
+  369  git merge dummy-branch
+  370  ../
+  371  cd ../
+  372  git merge dummy-branch
+  373  cd exercise-1
+  374  ls
+  375  cd ../
+  376  cd exercise-1
+  377  git rm dummy-file
+  378  cd ../
+  379  git rm dummy-file
+  380  git rm exercise-1/dummy-file
+  381  git commit -m "removing the dummy file"
+  382  git push
+  383  git log
+  384  git revert 76587ebf7490d8ed3a10bad65f6b5fa72215b3f7
+  385  cd Desktop
+  386  cd lab-work
+  387  cd eeb-177
+  388  cd lab-work
+  389  git log
+  390  git revert 76587ebf7490d8ed3a10bad65f6b5fa72215b3f7
+  391  cd exercise-1
+  392  ../
+  393  git log
+  394  ls
+  395  cd ../
+  396  git push
+  397  git add exercise-1/dummy-file
+  398  git commit -m "reverting deletion of dummy file"
+  399  git push
+  400  cd Desktop
+  401  cd eeb-177
+  402  mkdir 01-my-favorite-animals
+  403  cd 01-my-favorite-animals
+  404  git init
+  405  git remote add origin https://github.com/tdaang/favorite-animals.git
+  406  git push -u origin master
+  407  git remote add origin https://github.com/tdaang/favorite-animals.git
+  408  pwd
+  409  git init
+  410  git add README.txt
+  411  git init
+  412  git add touch README.txt
+  413  touch README.txt
+  414  gedit README.txt
+  415  git add README.txt
+  416  git commit -m "adding readme file of fav animals"
+  417  git remote add origin https://github.com/tdaang/favorite-animals.git
+  418  git push -u origin master
+  419  git add fav-animals-1-sloth
+  420  git init
+  421  git add fav-animals-1-sloth
+  422  cd ../
+  423  cd 01-my-favorite-animals
+  424  git add fav-animals-1-sloth.png
+  425  git commit -m "adding first animal"
+  426  git push
+  427  git add 2-llama.png
+  428  git commit -m "adding second animal"
+  429  git push
+  430  git add 3-otter.png
+  431  git commit -m "adding third animal"
+  432  git push
+  433  gitt add 4-giraffe.png
+  434  git add 4-giraffe.png
+  435  git commit -m "adding fourth animal"
+  436  git push
+  437  git add 6-cat
+  438  git add 6-cat.png
+  439  git commit -m "adding last animal"
+  440  git push
+  441  touch LINKS.txt
+  442  gedit LINKS.txt
+  443  git add LINKS.txt
+  444  git commit -m "adding links of favorite animals"
+  445  git push
+  446  cd ../
+  447  git clone https://github.com/guaravsk/my-fav-animals.git
+  448  git clone https://github.com/gauravsk/my-fav-animals.git
+  449  git log
+  450  cd lab-work
+  451  git init
+  452  git add 01-my-favorite-animals
+  453  cd ../
+  454  cd 01-my-favorite-animals
+  455  git init
+  456  git add gaurav-fav-animals
+  457  git add gaurav-fav-animals.png
+  458  git commit -m "screenshot of gaurav fav animals"
+  459  git push
+  460  cd Desktop
+  461  cd eeb-177
+  462  mkdir hw
+  463  cd hw
+  464  git init
+  465  touch HW-1-12-2017.txt
+  466  gedit HW-1-12-2017.txt
+  467  git add HW-1-12-2017.txt
+  468  git commit -m "adding absolute vs relative paths to hw repo"
+  469  git remote add origin https://github.com/tdaang/hw.git
+  470  git push -u origin master
+  471  gedit HW-1-12-2017.txt
+  472  git add HW-1-12-2017
+  473  git add HW-1-12-2017.txt
+  474  git commit -m "adding relative path resolution solutions to homework"
+  475  git push
+  476  gedit HW-1-12-2017.txt
+  477  git add HW-1-12-2017.txt
+  478  git commit -m "adding ls reading comprehension to hw repo"
+  479  git push
+  480  gedit HW-1-12-2017.txt
+  481  git add HW-1-12-2017.txt
+  482  git commit -m "adding exploring more ls arguments to hw repo"
+  483  git push
+  484  gedit HW-1-12-2017.txt
+  485  git add HW-1-12-2017.txt
+  486  git commit -m "adding listing recursively and by time to hw repo"
+  487  git push
+  488  cd Desktop
+  489  cd eeb-177
+  490  cd lab-work
+  491  mkdir assignment-2
+  492  cd assignment-2
+  493  touch README.txt
+  494  gedit README.txt
+  495  cd ../
+  496  git add assignment-2
+  497  git commit -m "adding second assignment to labwork 1-18-17"
+  498  git push
+  499  sudo apt-get update
+  500  sudo apt-get install gnome-screenshot
+  501  sudo reboot
+  502  cd Desktop
+  503  cd eeb-177
+  504  cd class-assignments
+  505  touch classwork-thurs-1-19.txt
+  506  git add classwork-thurs-1-19.txt
+  507  git commit -m "adding classwork file for 1-19 lecture"
+  508  git push
+  509  gedit classowrk-thurs-1-19.txt
+  510  gedit classwork-thurs-1-19
+  511  cd ../
+  512  cd ~
+  513  cd Desktop
+  514  cd eeb-177
+  515  git clone https://github.com/StefanoAllesina/CSB.git
+  516  cd CSB/unix
+  517  cd data
+  518  man wc
+  519  ls
+  520  wc -l temp.csv
+  521  wc -l Marra2014_data.fasta
+  522  ls ../
+  523  touch toremove.txt ../sandbox
+  524  ls ../sandbox
+  525  cd ~/Desktop/eeb-177/CSB
+  526  cd unix/data
+  527  touch removeme.txt ~/Desktop/eeb-177/CSB/unix/sandbox
+  528  ls ~Desktop/eeb-177/CSB/unix/sandbox
+  529  ls ~/Desktop/eeb-177/CSB/unix/sandbox
+  530  touch ~/Desktop/eeb-177/CSB/unix/sandbox/removeme.txt
+  531  ls ~/Desktop/eeb-177/CSB/unix/sandbox
+  532  touch ../sandbox/junkfile.txt
+  533  ls ../sandbox
+  534  history >> ~/Desktop/eeb-177/class-assignments/classwork-thurs-1-19.txt
