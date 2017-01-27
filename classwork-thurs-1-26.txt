@@ -1,0 +1,70 @@
+  612  ; grep '\(^.\|\.\s\). *Asiatic cockroach.*\(\.\s\n\)' Darwin.txt; done
+  613  cd Desktop/eeb-177/lab-work/exercise-2
+  614  grep '\b\w*(\.|\!) Darwin.txt
+  615  grep '\b\w*(\.|\!)' Darwin.txt
+  616  cd Desktop/eeb-177/lab-work/exercise-2
+  617  grep '\v\w*(\.|\!)' Darwin.txt
+  618  grep '\b\w*(\.|\!)' Darwin.txt
+  619  grep '\b\w*\D' Darwin.txt
+  620  grep 
+  621  grep 'b\w*\.' Darwin.txt
+  622  grep '\b\w* Darwin.txt
+  623  cd Desktop/eeb-177/lab-work
+  624  mkdir exercise-3
+  625  jupyter notebook
+  626  cd Desktop
+  627  cd eeb-177/lab-work/exercise-3
+  628  cd ../
+  629  git add exercise-3.ipynb
+  630  git add exercise-3/exercise-3.ipynb
+  631  git add Exercise-3.ipynb
+  632  git add exercise-3/Exercise-3.ipynb
+  633  git commit -m "adding in the answers to jupyter assignment"
+  634  git push
+  635  cd Desktop/eeb-177/lab-work
+  636  cd exercise-3
+  637  git add Exercise-3.ipynb
+  638  git commit-m
+  639  git commit -m "adding hte exercise 3 ipynb"
+  640  git push
+  641  jupyter notebook
+  642  cd Desktop
+  643  jupyter notebook
+  644  cd Desktop/eeb-177/class-assignments
+  645  gedit classwork-thurs-1-26.txt
+  646  touch permissions.txt
+  647  ls -a
+  648  chmod u=rwx permissions.txt
+  649  ls permissions.txt README.txt
+  650  chmod u-x permissions.txt
+  651  ls -a
+  652  ls -l
+  653  gedit thurs-1-26.txt
+  654  gedit dir.sh
+  655  ls /user/bin
+  656  ls /usr/bin
+  657  ls /bin
+  658  $path
+  659  $PATH
+  660  mkdir scripts
+  661  cd scripts
+  662  mv ~/Desktop/eeb-177/class-assignments
+  663  mv ~/Desktop/eeb-177/class-assignments/dir.sh
+  664  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+  665  ls
+  666  gedit .bash_profile
+  667  cd
+  668  gedit .bash_profile
+  669  ls -l
+  670  mkdir scripts
+  671  cd scripts
+  672  mv ~/Desktop/eeb-177/class-assignments/dir. sh .
+  673  mv ~/Desktop/eeb-177/class-assignments/scripts/dir.sh .
+  674  ls
+  675  gedit .bash_profile
+  676  cd
+  677  ls -a
+  678  gedit .profile
+  679  sudo reboot
+  680  cd Desktop/eeb-177/class-assignments
+  681  history 70 | less >> classwork-thurs-1-26.txt
