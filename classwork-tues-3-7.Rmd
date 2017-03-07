@@ -1,0 +1,49 @@
+---
+title: "classwork-tues-3-7.Rmd"
+output: html_document
+---
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+
+
+```
+
+```{r}
+data(graptPBDB)
+#get species sorted occurrences
+#head(graptOccPBDB)
+occSpecies <-taxonSortPBDBocc(graptOccPBDB, rank = "species")
+plotOccData(occSpecies, groupLabel = "Species")
+
+graptTimeSpecies <- occData2timeList(occList = occSpecies)
+
+taxicDivDisc(graptTimeSpecies)
+#head(graptTimeSpecies)
+
+#head(occSpecies)
+pdf(file = "dtt.pdf")
+taxicDivDisc(graptTimeSpecies)
+#taxicDivDisc(graptTimeGenus)
+#taxicDivDisc(graptTimeFamily)
+def.off()
+
+```
+
+```{r}
+canids <- pbdb_occurrences(limit)
+
+```
+
+```{r}
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank = "species")
+head(occSpecies)
+occGenera <- taxonSortPBDBocc(graptOccPBDB, rank = "genus")
+occFamily <- taxonSortPBDBocc(graptOccPBDB, rank = "family")
+```
+
+```{r}
+graptTimeSpecies <- occData2timeList(occlist=occSpecies)
+graptTimeGenus <- occData2timeList(occList = occGenera)
+graptTimeFamily <- occData2timeList(occList = occFamily)
